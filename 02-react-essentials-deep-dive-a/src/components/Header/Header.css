@@ -1,0 +1,29 @@
+
+header {
+    text-align: center;
+    margin: 3rem 0;
+  }
+  
+  header img {
+    height: 5rem;
+    width: 10rem;
+    object-fit: cover;/*resim alanının her yeri doldurulur taşan kısımları kesilir*/
+  }
+  
+  header h1 {
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 5rem;
+    background: linear-gradient(40deg, #ea00ff, #ea00ff, #03d5ff, #03d5ff);/*gradient 40 der eğimle uygulanır renkler 2 kez tekrarlandığından keskin bir değişim olur*/
+    -webkit-background-clip: text;/*arka plan yalnızca metnin içinde görünür hale gelir dışında kırpılır*/
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+  }
+  
+  header p {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #8964b0;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  

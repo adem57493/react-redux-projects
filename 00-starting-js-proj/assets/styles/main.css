@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: sans-serif;
+    color: #e6e2db;
+    background-color: #1f1c17;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;/*column gap ve row gap'in kısaltması*/
+    margin: 2rem auto;
+    max-width: 40rem;
+    width: 90%;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 1.5rem;
+}
+
+header h1{
+    font-family: "Roboto Condensed",sans-serif;
+    font-weight: normal;
+    font-size: 1.25rem;
+    color: #fce563;
+}
+
+header img{
+
+    width: 2rem;
+    object-fit: contain;/*resmin en-boy oranının bozulmadan kapsayıcıda olmasını sağlar*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    margin: 0.5rem 0;
+    color: #e9e2ba;
+}
